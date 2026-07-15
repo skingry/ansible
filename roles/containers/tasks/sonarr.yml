@@ -11,6 +11,5 @@
     volumes:
       - /opt/config/sonarr:/config:rw
       - /data/shares/Media/TV:/tv:rw
-      - /data/shares/Media/TV_Children:/children:rw
       - /data/shares/Downloads:/downloads:rw
     restart_policy: always
