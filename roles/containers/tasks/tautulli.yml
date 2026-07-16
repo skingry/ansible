@@ -4,8 +4,6 @@
     name: tautulli
     image: linuxserver/tautulli
     pull: true
-    memory: 256M
-    memory_swap: unlimited
     env:
       PGID: "65534"
       PUID: "65534"

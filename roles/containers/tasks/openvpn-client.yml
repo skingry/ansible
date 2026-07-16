@@ -4,8 +4,6 @@
     name: openvpn-client
     image: dperson/openvpn-client
     pull: true
-    memory: 16M
-    memory_swap: unlimited
     capabilities:
       - net_admin
     devices:

@@ -4,8 +4,6 @@
     name: plex-cleaner
     image: nitrikx/plex-cleaner
     pull: true
-    memory: 256M
-    memory_swap: unlimited
     env:
       EXECUTION_CRON_EXPRESSION: "22 */2 * * *"
     volumes:

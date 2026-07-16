@@ -27,17 +27,9 @@
   import_tasks:
     file: samba.yml
 
-- name: makemkv
-  import_tasks:
-    file: makemkv.yml
-
 - name: plex
   import_tasks:
     file: plex.yml
-
-- name: minecraft
-  import_tasks:
-    file: minecraft.yml
 
 - name: tautulli
   import_tasks:
@@ -54,10 +46,6 @@
 - name: certbot
   import_tasks:
     file: certbot.yml
-
-- name: plexcleaner
-  import_tasks:
-    file: plexcleaner.yml
 
 - name: prune
   docker_prune:

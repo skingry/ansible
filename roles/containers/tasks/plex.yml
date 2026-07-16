@@ -4,8 +4,6 @@
     name: plex
     image: plexinc/pms-docker
     pull: true
-    memory: 4096M
-    memory_swap: unlimited
     network_mode: host
     env:
       TZ: "America/New_York"

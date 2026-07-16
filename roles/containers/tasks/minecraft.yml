@@ -4,8 +4,6 @@
     name: minecraft
     image: itzg/minecraft-bedrock-server
     pull: true
-    memory: 8192M
-    memory_swap: unlimited
     network_mode: host
     interactive: true
     tty: true

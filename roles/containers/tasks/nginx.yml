@@ -4,8 +4,6 @@
     name: nginx
     image: nginx
     pull: true
-    memory: 512M
-    memory_swap: unlimited
     ports:
       - "80:80"
       - "443:443"
@@ -15,7 +13,6 @@
       - openvpn-client:nzbget
       - openvpn-client:sonarr
       - openvpn-client:qbittorrent
-      - makemkv:makemkv
       - tautulli:tautulli
     volumes:
       - /opt/config/nginx:/etc/nginx:rw
