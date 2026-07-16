@@ -4,8 +4,6 @@
     name: plexcleaner
     image: ptr727/plexcleaner
     pull: true
-    memory: 1024M
-    memory_swap: unlimited
     env:
       TZ: "America/New_York"
     user: nobody:nogroup

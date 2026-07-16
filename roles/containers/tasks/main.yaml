@@ -43,6 +43,10 @@
   import_tasks:
     file: plex-cleaner.yml
 
+- name: plexcleaner
+  import_tasks:
+    file: plexcleaner.yml
+
 - name: certbot
   import_tasks:
     file: certbot.yml
