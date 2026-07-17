@@ -11,6 +11,14 @@
     home: "/root"
     shell: "/bin/zsh"
 
+- name: nobody
+  user:
+    name: "nobody"
+    groups:
+      - "render"
+      - "video"
+    append: true
+
 - name: skingry
   user:
     name: "skingry"

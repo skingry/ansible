@@ -7,6 +7,9 @@
     env:
       TZ: "America/New_York"
     user: nobody:nogroup
+    devices:
+      - /dev/dri/card1:/dev/dri/card1:rwm
+      - /dev/dri/renderD128:/dev/dri/renderD128:rwm
     volumes:
       - /opt/config/plexcleaner:/config:rw
       - /data/shares/Media:/media:rw
