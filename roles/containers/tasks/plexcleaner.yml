@@ -6,7 +6,6 @@
     pull: true
     env:
       TZ: "America/New_York"
-    user: nobody:nogroup
     devices:
       - /dev/dri/card1:/dev/dri/card1:rwm
       - /dev/dri/renderD128:/dev/dri/renderD128:rwm
