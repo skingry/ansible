@@ -4,9 +4,9 @@
     name: gpg
     state: present
 
-- name: Install neofetch
+- name: Install fastfetch
   package:
-    name: neofetch
+    name: fastfetch
     state: present
 
 - name: Install net-tools
