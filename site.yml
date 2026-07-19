@@ -11,10 +11,6 @@
     - avryez.sshd_config_manager
 
   tasks:
-    - name: Setup users
-      import_role:
-        name: users
-
     - name: Apply 'common' role
       import_role:
         name: common
@@ -44,6 +40,10 @@
         docker_service_state: started
         docker_service_enabled: true
         docker_restart_handler_state: restarted
+
+    - name: Setup users
+      import_role:
+        name: users
 
     - name: Configure systemd-timesyncd
       import_role:

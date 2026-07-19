@@ -14,6 +14,11 @@
     name: net-tools
     state: present
 
+- name: Speedtest CLI
+  package:
+    name: speedtest-cli
+    state: present
+
 - name: Install unrar
   package:
     name: unrar
