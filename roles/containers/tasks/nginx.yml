@@ -1,5 +1,5 @@
 ---
-- name: Nginx - pull and configure
+- name: nginx - pull and configure
   docker_container:
     name: nginx
     image: nginx
