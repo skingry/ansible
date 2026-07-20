@@ -23,6 +23,10 @@
   import_tasks:
     file: sonarr.yml
 
+- name: avahi
+  import_tasks:
+    file: avahi.yml
+
 - name: samba
   import_tasks:
     file: samba.yml

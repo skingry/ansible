@@ -1,0 +1,10 @@
+---
+- name: avahi - pull and configure
+  docker_container:
+    name: avahi
+    image: ydkn/avahi
+    pull: true
+    network_mode: host
+    volumes:
+      - /opt/config/avahi/services:/etc/avahi/services:rw
+    restart_policy: always
